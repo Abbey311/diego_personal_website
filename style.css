@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    padding: 0% 0% 3% 0%;
+}
+
+#about_me{
+    display: flex;
+    flex-direction: column;
+    background-color: beige; 
+    padding: 0% 0% 3% 0%;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction:column;
+    padding: 0% 0% 3% 0%;
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#firstProject,#secondProject,#thirdProject{
+    width: 300px;
+    border-style: groove;
+    border-color: tan;
+    padding: 40px;
+    margin: 20px;
+    }
+
+body {
+    padding-bottom: 20px;
+    }
+    
